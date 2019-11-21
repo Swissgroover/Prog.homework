@@ -1,0 +1,11 @@
+n = float(input("Sisesta täisarv : "))
+mod = n % 2
+
+if mod > 0:
+    print("Ei sobi.")
+elif n >= 2 and n <= 5:
+    print("Sobib!")
+elif n >= 6 and n <= 20:
+    print("Ei sobi!")
+else:
+    print("Sobib")

@@ -1,0 +1,3 @@
+message = input("kirjuta midagi : ")
+
+print (message.title())

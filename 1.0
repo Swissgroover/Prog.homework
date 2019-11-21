@@ -1,0 +1,3 @@
+message = input("sisesta tekst : ")
+
+print (message.title())
